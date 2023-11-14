@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(245, 227, 34);
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 12px;
+    width: 100%;
+    list-style: none;
+    margin: 10px;
+}
+
+body {
+    background-color: gray;
+    font-size: 12px;
+}
+
+.producto{
+    display: flexbox;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.top {
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.top2A {
+    display: inline;
+    display: flex;
+    justify-content: flex-start;
+    font-size: large;
+}
+
+.top2b {
+    display: inline;
+    display: flex;
+    justify-content: flex-end;
+    font-size: large;
+}
+
+
+.titular {
+    font-size: 24px;
+
+}
+
+.price {
+    font-size: 18px;
+}
+
+.desc {
+    font-size: 16px;
+}
+
+main {
+    text-align: center;
+    width: 90%;
+}
+
+
+
+footer {
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+}
+
+.navi{
+    background-color: white;
+    margin: 10px;
+}
+
+
+.logo {
+    display: flex;
+    width: 150%;
+}
+
+.barra {
+    display: block;
+}
+
+.burger-menu {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 460px) {
+    header {
+        background-color: rgb(245, 227, 34);
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    body {
+        background-color: gray;
+    }
+
+    .top {
+        display: inline;
+        display: flex;
+        justify-content: space-between;
+        font-size: large;
+    }
+
+    .top2A {
+        display: inline;
+        display: flex;
+        justify-content: flex-start;
+        font-size: large;
+    }
+
+    .top2b {
+        display: inline;
+        display: flex;
+        justify-content: flex-end;
+        font-size: large;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .titular {
+        font-size: 24px;
+
+    }
+
+    .price {
+        font-size: 16px;
+    }
+
+    .desc {
+        font-size: 16px;
+    }
+
+    main {
+        text-align: center;
+        width: 90%;
+    }
+
+
+
+    footer {
+        background-color: gray;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .navi2 {
+        background-color: white;
+        margin: 10px;
+    }
+
+
+
+}
